@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PlintPlaza</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      background-color: #fdfcf8;
+      font-family: system-ui, sans-serif;
+    }
+  </style>
+</head>
+<body class="text-[#2F2F2F]">
+
+  <!-- HEADER -->
+  <header class="bg-white mx-4 mt-4 shadow-md rounded-2xl border border-gray-300">
+    <div class="max-w-screen-xl mx-auto flex items-center justify-between p-4">
+      <div class="text-2xl font-bold">
+        <span class="text-[#2F2F2F]">PLINT</span><span class="text-[#6D8E6E]">PLAZA</span>
+      </div>
+      <div class="flex-1 mx-6">
+        <input type="text" placeholder="Waar ben je naar opzoek?" class="w-full px-4 py-2 rounded-full border border-gray-300 bg-[#fdfcf8] shadow-inner focus:outline-none" />
+      </div>
+      <div class="flex items-center gap-4">
+        <button title="Account">👤</button>
+        <button title="Winkelwagen">🛒</button>
+      </div>
+    </div>
+
+    <!-- CATEGORIEËN -->
+    <nav class="flex justify-center gap-8 py-2 border-t border-gray-200 text-sm font-medium">
+      <a href="#" class="hover:underline">Plinten</a>
+      <a href="#" class="hover:underline">Profielen</a>
+      <a href="#" class="hover:underline">Gereedschap</a>
+      <a href="#" class="hover:underline">Traprenovatie</a>
+      <a href="#" class="hover:underline">FAQ</a>
+      <a href="#" class="hover:underline">Contact</a>
+      <a href="#" class="hover:underline">Over ons</a>
+    </nav>
+  </header>
+
+  <!-- USP BALK ONDER HEADER -->
+  <div class="bg-[#eeeade] py-4 mt-4 mx-4 rounded-xl text-sm text-[#2F2F2F] font-medium">
+    <div class="max-w-screen-xl mx-auto flex justify-between">
+      <!-- USP 1 -->
+      <div class="w-1/3 text-center flex items-center justify-center gap-2">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-[#6D8E6E]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 16l4-4h13M3 16v5a1 1 0 001 1h3m0-6v6m0-6l3-3m0 0h9a1 1 0 011 1v3m-1 4h-2a2 2 0 01-2-2v-1a2 2 0 012-2h2" />
+        </svg>
+        <span>Gratis verzending vanaf € 50</span>
+      </div>
+      <!-- USP 2 -->
+      <div class="w-1/3 text-center flex items-center justify-center gap-2">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-[#6D8E6E]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+        </svg>
+        <span>Topkwaliteit</span>
+      </div>
+      <!-- USP 3 -->
+      <div class="w-1/3 text-center flex items-center justify-center gap-2">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-[#6D8E6E]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h3l3-3m0 0l3 3m-3-3v10m0 0l-3 3m3-3l3 3" />
+        </svg>
+        <span>30 dagen retourrecht</span>
+      </div>
+    </div>
+  </div>
+
+<!-- ACTIEBANNER & USP BLOK -->
+<section class="max-w-screen-xl mx-auto mt-10 grid grid-cols-1 md:grid-cols-3 gap-6 px-4 h-[380px]">
+  <!-- LINKERBANNER -->
+  <div class="md:col-span-2 h-full rounded-xl overflow-hidden shadow-md">
+    <img src="https://i.ibb.co/7x3bJM6X/Chat-GPT-Image-24-jul-2025-21-27-19.png"
+         alt="Actiebanner"
+         class="w-full h-full object-cover rounded-xl" />
+  </div>
+
+<!-- RECHTER USP BLOK -->
+<div class="bg-[#e6f0ed] rounded-xl shadow-md p-6 flex flex-col gap-5 h-full text-sm">
+  <!-- USP ICONEN + TEKST -->
+  <div class="space-y-4">
+    <div class="flex items-start gap-3">
+      <div class="text-white bg-[#6D8E6E] p-2 rounded-full">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 11c1.657 0 3-1.343 3-3S13.657 5 12 5s-3 1.343-3 3 1.343 3 3 3zM19 20c0-2.761-4.029-5-7-5s-7 2.239-7 5"/>
+        </svg>
+      </div>
+      <p class="font-semibold text-[15px] leading-tight">
+        Inspiratie<span style="font-size: 20px; font-weight: bold; color: #ea8e4e; margin-left: 2px;">.</span>
+      </p>
+    </div>
+
+    <div class="flex items-start gap-3">
+      <div class="text-white bg-[#6D8E6E] p-2 rounded-full">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h2l.894-2.683A1 1 0 016.789 7h10.422a1 1 0 01.895.553L20 12H6m-2 0v6h16v-6"/>
+        </svg>
+      </div>
+      <p class="font-semibold text-[15px] leading-tight">
+        Snelle levering<span style="font-size: 20px; font-weight: bold; color: #ea8e4e; margin-left: 2px;">.</span>
+      </p>
+    </div>
+
+    <div class="flex items-start gap-3">
+      <div class="text-white bg-[#6D8E6E] p-2 rounded-full">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m-5 8a8 8 0 100-16 8 8 0 000 16z"/>
+        </svg>
+      </div>
+      <p class="font-semibold text-[15px] leading-tight">
+        Eerlijk & transparant<span style="font-size: 20px; font-weight: bold; color: #ea8e4e; margin-left: 2px;">.</span>
+      </p>
+    </div>
+
+    <div class="flex items-start gap-3">
+      <div class="text-white bg-[#6D8E6E] p-2 rounded-full">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l.699 2.149a1 1 0 00.95.69h2.264c.969 0 1.371 1.24.588 1.81l-1.833 1.33a1 1 0 00-.364 1.118l.699 2.149c.3.921-.755 1.688-1.54 1.118l-1.833-1.33a1 1 0 00-1.176 0l-1.833 1.33c-.784.57-1.839-.197-1.54-1.118l.699-2.149a1 1 0 00-.364-1.118L4.548 7.576c-.783-.57-.38-1.81.588-1.81h2.264a1 1 0 00.95-.69l.699-2.149z"/>
+        </svg>
+      </div>
+      <p class="font-semibold text-[15px] leading-tight">
+        Groot assortiment<span style="font-size: 20px; font-weight: bold; color: #ea8e4e; margin-left: 2px;">.</span>
+      </p>
+    </div>
+
+    <div class="flex items-start gap-3">
+      <div class="text-white bg-[#6D8E6E] p-2 rounded-full">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h.01M16 10h.01M12 10h.01M21 16v-2a4 4 0 00-4-4H7a4 4 0 00-4 4v2a2 2 0 002 2h14a2 2 0 002-2z"/>
+        </svg>
+      </div>
+      <p class="font-semibold text-[15px] leading-tight">
+        Showroom bezoeken<span style="font-size: 20px; font-weight: bold; color: #ea8e4e; margin-left: 2px;">.</span>
+      </p>
+    </div>
+  </div>
+
+  <!-- CTA KNOP -->
+  <a href="#"
+     class="mt-4 inline-block bg-[#6D8E6E] text-white text-sm font-semibold px-4 py-2 rounded-full text-center hover:bg-[#5a785c] transition-colors">
+    Meer over PlintPlaza
+  </a>
+</div>
+</section>
+
+  <!-- DRIE BLOKKEN STRUCTUUR -->
+  <section class="max-w-screen-xl mx-auto mt-10 grid grid-cols-1 md:grid-cols-3 gap-6 px-4">
+    <!-- Blok 1: Plinten -->
+    <div class="bg-white rounded-xl shadow-md overflow-hidden flex flex-col items-center text-center p-4">
+      <img src="https://i.ibb.co/v6ZdwZrH/Plintski.png" alt="Plinten" class="w-full h-48 object-cover rounded-md mb-4">
+      <h3 class="text-lg font-semibold">Plinten</h3>
+      <p class="text-sm mt-2 text-gray-600">Voor elke muur de perfecte afwerking</p>
+      <a href="#" class="mt-4 inline-block bg-[#6D8E6E] text-white px-4 py-2 rounded-full text-sm hover:bg-[#5a785c]">Bekijk plinten</a>
+    </div>
+    <!-- Blok 2: Profielen -->
+    <div class="bg-white rounded-xl shadow-md overflow-hidden flex flex-col items-center text-center p-4">
+      <img src="https://i.ibb.co/Yn3XHMH/pexels-digitalbuggu-368754.jpg" alt="Profielen" class="w-full h-48 object-cover rounded-md mb-4">
+      <h3 class="text-lg font-semibold">Profielen</h3>
+      <p class="text-sm mt-2 text-gray-600">Vind het juiste profiel voor elke vloer</p>
+      <a href="#" class="mt-4 inline-block bg-[#6D8E6E] text-white px-4 py-2 rounded-full text-sm hover:bg-[#5a785c]">Bekijk profielen</a>
+    </div>
+    <!-- Blok 3: Gereedschap -->
+    <div class="bg-white rounded-xl shadow-md overflow-hidden flex flex-col items-center text-center p-4">
+      <img src="https://via.placeholder.com/300x200?text=Gereedschap" alt="Gereedschap" class="w-full h-48 object-cover rounded-md mb-4">
+      <h3 class="text-lg font-semibold">Gereedschap</h3>
+      <p class="text-sm mt-2 text-gray-600">Voor een professionele installatie</p>
+      <a href="#" class="mt-4 inline-block bg-[#6D8E6E] text-white px-4 py-2 rounded-full text-sm hover:bg-[#5a785c]">Bekijk tools</a>
+    </div>
+  </section>
+
+<!-- MERKEN SLIDER BALK -->
+<section class="w-full bg-[#e6f0ed] py-6 overflow-hidden mt-16">
+  <div class="max-w-screen-xl mx-auto">
+    <div class="animate-scroll flex gap-12 items-center">
+      <!-- Placeholder logo's - vervang met echte merken -->
+      <img src="https://via.placeholder.com/120x40?text=Merk+1" class="h-10 grayscale hover:grayscale-0 transition duration-300" alt="Merk 1">
+      <img src="https://via.placeholder.com/120x40?text=Merk+2" class="h-10 grayscale hover:grayscale-0 transition duration-300" alt="Merk 2">
+      <img src="https://via.placeholder.com/120x40?text=Merk+3" class="h-10 grayscale hover:grayscale-0 transition duration-300" alt="Merk 3">
+      <img src="https://via.placeholder.com/120x40?text=Merk+4" class="h-10 grayscale hover:grayscale-0 transition duration-300" alt="Merk 4">
+      <img src="https://via.placeholder.com/120x40?text=Merk+5" class="h-10 grayscale hover:grayscale-0 transition duration-300" alt="Merk 5">
+      <img src="https://via.placeholder.com/120x40?text=Merk+6" class="h-10 grayscale hover:grayscale-0 transition duration-300" alt="Merk 6">
+      <img src="https://via.placeholder.com/120x40?text=Merk+7" class="h-10 grayscale hover:grayscale-0 transition duration-300" alt="Merk 7">
+    </div>
+  </div>
+</section>
+
+<!-- Scroll animatie -->
+<style>
+  @keyframes scrollLeft {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+  }
+
+  .animate-scroll {
+    animation: scrollLeft 60s linear infinite;
+    width: max-content;
+  }
+</style>
+
+<!-- BLOGSECTIE ASYMMETRISCH (grote blog rechts) -->
+<section class="max-w-screen-xl mx-auto mt-16 px-4">
+  <h2 class="text-2xl font-semibold text-center mb-8">Laat je inspireren</h2>
+
+  <div class="grid md:grid-cols-3 gap-6">
+    <!-- Linkerkolom: twee kleinere blogs onder elkaar -->
+    <div class="flex flex-col gap-6">
+      <!-- Blog 1 -->
+      <div class="bg-white rounded-xl shadow-md overflow-hidden">
+        <img src="https://via.placeholder.com/400x200?text=Blog+1" alt="Blog 1" class="w-full h-auto object-cover">
+        <div class="p-4">
+          <h3 class="text-base font-semibold mb-1">Welke plint past bij jouw interieurstijl?</h3>
+          <p class="text-sm text-gray-600 mb-3">Ontdek hoe je met de juiste plint elke ruimte stijlvol kunt afwerken.</p>
+          <a href="#" class="text-[#6D8E6E] font-semibold text-sm hover:underline">Lees verder →</a>
+        </div>
+      </div>
+
+      <!-- Blog 2 -->
+      <div class="bg-white rounded-xl shadow-md overflow-hidden">
+        <img src="https://via.placeholder.com/400x200?text=Blog+2" alt="Blog 2" class="w-full h-auto object-cover">
+        <div class="p-4">
+          <h3 class="text-base font-semibold mb-1">5 tips voor het monteren van plinten als een pro</h3>
+          <p class="text-sm text-gray-600 mb-3">Met deze eenvoudige stappen zorg je voor een perfect resultaat.</p>
+          <a href="#" class="text-[#6D8E6E] font-semibold text-sm hover:underline">Lees verder →</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Grote blog rechts (span 2 kolommen op mobiel) -->
+    <div class="md:col-span-2 bg-white rounded-xl shadow-md overflow-hidden flex flex-col md:flex-row">
+      <img src="https://via.placeholder.com/500x300?text=Blog+3" alt="Blog 3" class="w-full md:w-1/2 h-auto object-cover">
+      <div class="p-6 flex flex-col justify-between">
+        <div>
+          <h3 class="text-lg font-semibold mb-2">Waarom MDF-plinten zo populair zijn</h3>
+          <p class="text-sm text-gray-600 mb-4">MDF biedt een strak resultaat en is makkelijk te bewerken. Lees meer!</p>
+        </div>
+        <a href="#" class="text-[#6D8E6E] font-semibold text-sm hover:underline">Lees verder →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- NIEUWSBRIEF SECTIE -->
+<section class="bg-[#f8f6ef] rounded-xl mx-4 max-w-screen-xl px-6 py-10 mt-20 mb-10 mx-auto shadow-md">
+  <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+    <!-- Tekst -->
+    <div class="md:w-2/3">
+      <h2 class="text-xl font-semibold text-[#2F2F2F] mb-2">Blijf op de hoogte</h2>
+      <p class="text-sm text-gray-600">Schrijf je in voor onze nieuwsbrief en ontvang als eerste nieuws, inspiratie en acties.</p>
+    </div>
+
+    <!-- Formulier -->
+    <form class="flex w-full md:w-auto gap-2 mt-4 md:mt-0">
+      <input type="email" required placeholder="Jouw e-mailadres" class="px-4 py-2 rounded-full border border-gray-300 bg-white w-full md:w-64 text-sm focus:outline-none" />
+      <button type="submit" class="bg-[#6D8E6E] hover:bg-[#5a785c] text-white text-sm font-medium px-4 py-2 rounded-full transition-colors">
+        Aanmelden
+      </button>
+    </form>
+  </div>
+</section>
+
+
+<!-- FOOTER -->
+<footer class="bg-[#2F2F2F] text-white mt-20">
+  <div class="max-w-screen-xl mx-auto px-4 py-12 grid grid-cols-1 md:grid-cols-4 gap-8 text-sm">
+    
+    <!-- Over ons -->
+    <div>
+      <h4 class="text-base font-semibold mb-4 text-[#6D8E6E]">Over PlintPlaza</h4>
+      <p class="text-gray-300 leading-relaxed mb-4">
+        Bij PlintPlaza vind je alles voor een perfecte vloerafwerking. Van MDF-plinten tot trapprofielen: kwaliteit en service staan voorop.
+      </p>
+      <div class="flex gap-3 mt-2">
+        <img src="https://via.placeholder.com/40x25?text=iDEAL" alt="iDEAL" class="h-6">
+        <img src="https://via.placeholder.com/40x25?text=Visa" alt="Visa" class="h-6">
+        <img src="https://via.placeholder.com/40x25?text=PostNL" alt="PostNL" class="h-6">
+      </div>
+    </div>
+
+    <!-- Navigatie -->
+    <div>
+      <h4 class="text-base font-semibold mb-4 text-[#6D8E6E]">Navigatie</h4>
+      <ul class="space-y-2 text-gray-300">
+        <li><a href="#" class="hover:text-[#6D8E6E] transition-colors">Plinten</a></li>
+        <li><a href="#" class="hover:text-[#6D8E6E] transition-colors">Profielen</a></li>
+        <li><a href="#" class="hover:text-[#6D8E6E] transition-colors">Traprenovatie</a></li>
+        <li><a href="#" class="hover:text-[#6D8E6E] transition-colors">Contact</a></li>
+        <li><a href="#" class="hover:text-[#6D8E6E] transition-colors">Over ons</a></li>
+      </ul>
+    </div>
+
+    <!-- Contact -->
+    <div>
+      <h4 class="text-base font-semibold mb-4 text-[#6D8E6E]">Contact</h4>
+      <ul class="text-gray-300 space-y-2">
+        <li>📍 Voorbeeldstraat 123, 2671AA</li>
+        <li>📞 0174 - 123 456</li>
+        <li>✉️ info@plintplaza.nl</li>
+        <li>🕓 Ma t/m vr: 09:00 - 17:00</li>
+      </ul>
+    </div>
+
+    <!-- Juridisch -->
+    <div>
+      <h4 class="text-base font-semibold mb-4 text-[#6D8E6E]">Juridisch</h4>
+      <ul class="space-y-2 text-gray-300">
+        <li><a href="#" class="hover:text-[#6D8E6E] transition-colors">Algemene voorwaarden</a></li>
+        <li><a href="#" class="hover:text-[#6D8E6E] transition-colors">Retourbeleid</a></li>
+        <li><a href="#" class="hover:text-[#6D8E6E] transition-colors">Privacyverklaring</a></li>
+        <li><a href="#" class="hover:text-[#6D8E6E] transition-colors">Cookie-instellingen</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Copyright -->
+  <div class="bg-[#1e1e1e] text-center text-xs py-4 text-gray-400">
+    © 2025 PlintPlaza. Alle rechten voorbehouden.
+  </div>
+</footer>
+
+</body>
+</html>
