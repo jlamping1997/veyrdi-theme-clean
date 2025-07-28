@@ -1,0 +1,33 @@
+<section class="w-full bg-[#e6f0ed] py-6 overflow-hidden mt-16">
+  <div class="max-w-screen-xl mx-auto">
+    <div class="animate-scroll flex gap-12 items-center">
+      <!-- Placeholder logo's - vervang met echte merken -->
+      <img src="https://via.placeholder.com/120x40?text=Merk+1" class="h-10 grayscale hover:grayscale-0 transition duration-300" alt="Merk 1">
+      <img src="https://via.placeholder.com/120x40?text=Merk+2" class="h-10 grayscale hover:grayscale-0 transition duration-300" alt="Merk 2">
+      <img src="https://via.placeholder.com/120x40?text=Merk+3" class="h-10 grayscale hover:grayscale-0 transition duration-300" alt="Merk 3">
+      <img src="https://via.placeholder.com/120x40?text=Merk+4" class="h-10 grayscale hover:grayscale-0 transition duration-300" alt="Merk 4">
+      <img src="https://via.placeholder.com/120x40?text=Merk+5" class="h-10 grayscale hover:grayscale-0 transition duration-300" alt="Merk 5">
+      <img src="https://via.placeholder.com/120x40?text=Merk+6" class="h-10 grayscale hover:grayscale-0 transition duration-300" alt="Merk 6">
+      <img src="https://via.placeholder.com/120x40?text=Merk+7" class="h-10 grayscale hover:grayscale-0 transition duration-300" alt="Merk 7">
+    </div>
+  </div>
+</section>
+
+<style>
+  @keyframes scrollLeft {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+  }
+
+  .animate-scroll {
+    animation: scrollLeft 60s linear infinite;
+    width: max-content;
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Merken slider balk",
+  "settings": []
+}
+{% endschema %}

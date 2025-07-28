@@ -1,0 +1,24 @@
+<section class="bg-[#f8f6ef] rounded-xl mx-4 max-w-screen-xl px-6 py-10 mt-20 mb-10 mx-auto shadow-md">
+  <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+    <!-- Tekst -->
+    <div class="md:w-2/3">
+      <h2 class="text-xl font-semibold text-[#2F2F2F] mb-2">Blijf op de hoogte</h2>
+      <p class="text-sm text-gray-600">Schrijf je in voor onze nieuwsbrief en ontvang als eerste nieuws, inspiratie en acties.</p>
+    </div>
+
+    <!-- Formulier -->
+    <form class="flex w-full md:w-auto gap-2 mt-4 md:mt-0">
+      <input type="email" required placeholder="Jouw e-mailadres" class="px-4 py-2 rounded-full border border-gray-300 bg-white w-full md:w-64 text-sm focus:outline-none" />
+      <button type="submit" class="bg-[#6D8E6E] hover:bg-[#5a785c] text-white text-sm font-medium px-4 py-2 rounded-full transition-colors">
+        Aanmelden
+      </button>
+    </form>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Nieuwsbrief sectie",
+  "settings": []
+}
+{% endschema %}
